@@ -1,0 +1,13 @@
+[package]
+name = "secure_bot"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+dotenvy = "0.15.7"
+poise = "0.6.1"
+rand = "0.9.2"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread"] }

@@ -1,0 +1,42 @@
+# Goals
+- [ ] Moderation commands
+    - [ ] Kick
+    - [ ] Ban
+    - [ ] Mute
+    - [ ] Warn
+    - [ ] Lockdown (time limit)
+    - [ ] Slowdown (time limit)
+- [ ] Logging
+    - [ ] Joins
+    - [ ] Leaves
+    - [ ] Bans
+    - [ ] Kicks
+    - [ ] Timeouts
+    - [ ] Message deletions
+    - [ ] Message edits
+    - [ ] Channel creations
+    - [ ] Channel deletions
+    - [ ] Channel updates
+    - [ ] Thread creations
+    - [ ] Thread deletions
+    - [ ] Thread updates
+    - [ ] Role reations
+    - [ ] Role deletions
+    - [ ] Role updates
+    - [ ] Webhook creations
+    - [ ] Webhook deletions
+    - [ ] Emoji creations
+    - [ ] Emoji deletions
+    - [ ] Emoji updates
+    - [ ] Server names
+    - [ ] Server icons
+    - [ ] Server banners
+- [ ] Anti-raid systems
+    - [ ] Automated muting (spamming, spam edits, spam reactions)
+    - [ ] Server lockdown (deleting invites, disabling verification)
+    - [ ] Mass server modifications (server info, channels, roles, members)
+    - [ ] Inactive accounts notifications
+- [ ] Verification
+    - [ ] Suspicious account detection (porn bots, account age)
+- [ ] Web dashboard
+

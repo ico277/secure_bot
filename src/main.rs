@@ -3,16 +3,15 @@ use std::path::PathBuf;
 use dotenvy::dotenv;
 use poise::serenity_prelude as serenity;
 use rand::Rng;
-use serde::{Deserialize, Serialize};
 use tokio::sync::Mutex;
 
 struct Data {
-    config_dir: PathBuf,
+    database_path: PathBuf,
 
     pub counter: Mutex<u128>,
 } // User data, which is stored and accessible in all command invocations
 impl Data {
-    
+    pub fn read(self) {} 
 }
 type Error = Box<dyn std::error::Error + Send + Sync>;
 type Context<'a> = poise::Context<'a, Data, Error>;
@@ -89,7 +88,7 @@ async fn main() {
             Box::pin(async move {
                 poise::builtins::register_globally(ctx, &framework.options().commands).await?;
                 Ok(Data {
-                    config_dir: "./botconfig/".into(),
+                    database_path: "./botconfig/".into(),
                     counter: 0u128.into(),
                 })
             })
